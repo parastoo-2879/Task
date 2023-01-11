@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(fonts/woff/IRANSansWeb.woff);
+}
+body{
+  font-family: IRANSansWeb;
+  direction: rtl;
+}
+#header {
+  height: 66px;
+  background-color: #F1F1F1;
+}
+#search_icon{
+  width: 38px;height: 38px;
+  background-color:#463074;
+  cursor: pointer;
+}
+#logo>img{
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+#desktopMenu{
+  color: #463074;
+}
+.title{
+  font-size: 38px;
+  color: #463074;
+  font-weight: bold;
+}
+#backline{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 494px;
+  background-color: #F9F5FF;
+}
+#android{
+  background-color: #463074;
+}
+#table img{
+  width: 40px;
+  height: 46px;
+  object-fit: contain;
+}
+#table>section{
+  background-color: #F1E9FD;
+  box-shadow: 0px 4px 40px #BCA7D2;
+}
+.device{
+  height: 85px;
+}
+.download{
+  height: 60px;
+}
+#hamkari{
+  background-color: #F1E9FD;
+}
+#button{
+  width: 171px;
+  height: 51px;
+  background-color: #463074;
+  color: white;
+}
+.slide{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+footer{
+  padding: 20px;
+  background-color: #463074;
+  color: white;
+}
